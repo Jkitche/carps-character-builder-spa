@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./carps-character-builder-spa/static/css/main.a78ac956.chunk.css",
-    "main.js": "./carps-character-builder-spa/static/js/main.fe1dc41d.chunk.js",
-    "main.js.map": "./carps-character-builder-spa/static/js/main.fe1dc41d.chunk.js.map",
+    "main.js": "./carps-character-builder-spa/static/js/main.60cf04ac.chunk.js",
+    "main.js.map": "./carps-character-builder-spa/static/js/main.60cf04ac.chunk.js.map",
     "runtime-main.js": "./carps-character-builder-spa/static/js/runtime-main.381710c8.js",
     "runtime-main.js.map": "./carps-character-builder-spa/static/js/runtime-main.381710c8.js.map",
     "static/css/2.f0253e06.chunk.css": "./carps-character-builder-spa/static/css/2.f0253e06.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.f0253e06.chunk.css",
     "static/js/2.96e91300.chunk.js",
     "static/css/main.a78ac956.chunk.css",
-    "static/js/main.fe1dc41d.chunk.js"
+    "static/js/main.60cf04ac.chunk.js"
   ]
 }
