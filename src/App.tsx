@@ -12,7 +12,13 @@ function App() {
 			<div className={styles.app}>
 				<h1>CARPS Character Builder</h1>
 
-				<BrowserRouter>
+				<BrowserRouter
+					basename={
+						process.env.NODE_ENV === "production"
+							? "/carps-character-creator-spa"
+							: "/"
+					}
+				>
 					<RouterSwitch />
 				</BrowserRouter>
 			</div>

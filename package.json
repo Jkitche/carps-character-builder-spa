@@ -30,7 +30,8 @@
 	"license": "CC",
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"build": "cross-env NODE_ENV=production react-scripts build",
+		"promote": "rimraf docs && cp -r build docs",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
@@ -55,6 +56,8 @@
 	"devDependencies": {
 		"@types/lodash": "^4.14.165",
 		"@types/react-redux": "^7.1.12",
-		"@types/react-router-dom": "^5.1.6"
+		"@types/react-router-dom": "^5.1.6",
+		"cross-env": "^7.0.3",
+		"rimraf": "^3.0.2"
 	}
 }
