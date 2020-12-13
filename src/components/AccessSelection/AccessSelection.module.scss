@@ -1,0 +1,18 @@
+@import "../../assets/scss/media";
+
+.accessSelection {
+	margin: 2rem;
+	display: flex;
+}
+
+.header {
+	margin: 0 0 1rem 0;
+}
+
+.access {
+	display: flex;
+	flex-basis: 33%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}

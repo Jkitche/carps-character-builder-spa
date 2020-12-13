@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Provider } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
+import styles from "./App.module.scss";
+import { RouterSwitch } from "./components/RouterSwitch/RouterSwitch";
+import { store } from "./store";
+import "rpg-awesome/scss/rpg-awesome.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Provider store={store}>
+			<div className={styles.app}>
+				<h1>CARPS Character Builder</h1>
+
+				<BrowserRouter>
+					<RouterSwitch />
+				</BrowserRouter>
+			</div>
+		</Provider>
+	);
 }
 
 export default App;

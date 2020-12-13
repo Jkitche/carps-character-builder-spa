@@ -1,0 +1,33 @@
+.raceTab {
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: -2.5rem;
+	padding-left: 1rem;
+	position: relative;
+}
+
+.nextButton {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.imagePlaceholder {
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+}
+
+.raceInfo {
+	display: flex;
+}
+
+.raceMeta {
+	padding: 0 1rem;
+	max-width: calc(100% - 200px + 1rem);
+
+	h4 {
+		display: inline;
+	}
+}
