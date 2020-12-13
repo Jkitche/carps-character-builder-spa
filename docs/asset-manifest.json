@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a78ac956.chunk.css",
+    "main.js": "/static/js/main.f1af5aef.chunk.js",
+    "main.js.map": "/static/js/main.f1af5aef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.82e01116.js",
+    "runtime-main.js.map": "/static/js/runtime-main.82e01116.js.map",
+    "static/css/2.b1b46166.chunk.css": "/static/css/2.b1b46166.chunk.css",
+    "static/js/2.4ed22609.chunk.js": "/static/js/2.4ed22609.chunk.js",
+    "static/js/2.4ed22609.chunk.js.map": "/static/js/2.4ed22609.chunk.js.map",
+    "static/js/3.01fc6ebd.chunk.js": "/static/js/3.01fc6ebd.chunk.js",
+    "static/js/3.01fc6ebd.chunk.js.map": "/static/js/3.01fc6ebd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b1b46166.chunk.css.map": "/static/css/2.b1b46166.chunk.css.map",
+    "static/css/main.a78ac956.chunk.css.map": "/static/css/main.a78ac956.chunk.css.map",
+    "static/js/2.4ed22609.chunk.js.LICENSE.txt": "/static/js/2.4ed22609.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/icons-20.cde033c5.eot",
+    "static/media/rpg-awesome.scss": "/static/media/rpgawesome-webfont.5ddfbfc5.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82e01116.js",
+    "static/css/2.b1b46166.chunk.css",
+    "static/js/2.4ed22609.chunk.js",
+    "static/css/main.a78ac956.chunk.css",
+    "static/js/main.f1af5aef.chunk.js"
+  ]
+}
