@@ -2,7 +2,7 @@
 	"name": "carps-character-builder-spa",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "./carps-character-builder-spa",
+	"homepage": "https://jkitche.github.io/carps-character-builder-spa/",
 	"dependencies": {
 		"@blueprintjs/core": "^3.36.0",
 		"@reduxjs/toolkit": "^1.5.0",
