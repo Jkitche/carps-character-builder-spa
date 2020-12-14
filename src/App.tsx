@@ -11,7 +11,7 @@ export default function App(): React.ReactElement {
 		<Provider store={store}>
 			<div className={styles.app}>
 				<h1>CARPS Character Builder</h1>
-				<BrowserRouter>
+				<BrowserRouter basename={process.env.PUBLIC_URL}>
 					<RouterSwitch />
 				</BrowserRouter>
 			</div>

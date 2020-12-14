@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import { RoutePaths } from "../../routes";
-import Welcome from "../Welcome/Welcome";
+import { Welcome } from "../Welcome/Welcome";
 import { PanelController } from "./../PanelController/PanelController";
 
 export function RouterSwitch(): React.ReactElement {

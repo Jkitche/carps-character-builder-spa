@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import { RoutePaths } from "../../routes";
 import styles from "./Welcome.module.scss";
 
-function Welcome() {
+export function Welcome(): React.ReactElement {
 	const history = useHistory();
 	return (
 		<div className={styles.welcome}>
@@ -23,5 +23,3 @@ function Welcome() {
 		</div>
 	);
 }
-
-export default Welcome;
