@@ -1,4 +1,7 @@
-export enum Race {
+import { AccessRank } from "./accessRank";
+import { AccessElement } from "./element";
+
+export enum RaceNames {
 	ALLERIAN = "Allerian (Human)",
 	AVYANA = "Avyana",
 	BARBARIAN = "Barbarian",
@@ -17,4 +20,19 @@ export enum Race {
 	SYLVANI = "Sylvani",
 	VALKENVI = "Valken'Vi",
 	WOOD_ELF = "Wood Elf",
+}
+
+export interface RaceAccess {
+	rank: AccessRank;
+	element: AccessElement;
+}
+
+export interface Race {
+	majorAccess: AccessElement[];
+	specialtyAccess: AccessElement[];
+	minorAccess: AccessElement[];
+	accessPicks: number;
+	costumingRequirements: string;
+	recommendedCostuming: string;
+	description: string;
 }

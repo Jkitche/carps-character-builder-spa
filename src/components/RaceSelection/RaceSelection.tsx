@@ -1,13 +1,13 @@
 import { IPanelProps, Tab, Tabs } from "@blueprintjs/core";
 import map from "lodash/map";
 import React from "react";
-import { Race } from "../../types/race";
+import { RaceNames } from "../../types/race";
 import { RaceTab } from "../RaceTab/RaceTab";
 import styles from "./RaceSelection.module.scss";
 
-export function RaceSelection({ openPanel }: IPanelProps) {
-	const [visibleRace, setVisibleRace] = React.useState<string>(Race.ALLERIAN);
-	const raceTabs = map(Race, (race) => (
+export function RaceSelection({ openPanel }: IPanelProps): React.ReactElement {
+	const [visibleRace, setVisibleRace] = React.useState<string>(RaceNames.ALLERIAN);
+	const raceTabs = map(RaceNames, (race) => (
 		<Tab
 			key={race}
 			id={race}

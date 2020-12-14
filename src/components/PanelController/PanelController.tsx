@@ -4,7 +4,7 @@ import React from "react";
 import { PlayerInfo } from "../PlayerInfo/PlayerInfo";
 import styles from "./PanelController.module.scss";
 
-export function PanelController() {
+export function PanelController(): React.ReactElement {
 	const [panels, setPanels] = React.useState<Array<IPanel>>([]);
 	const breadcrumbs = [
 		{ text: "Player Info" },

@@ -3,7 +3,7 @@ import { RoutePaths } from "../../routes";
 import Welcome from "../Welcome/Welcome";
 import { PanelController } from "./../PanelController/PanelController";
 
-export function RouterSwitch() {
+export function RouterSwitch(): React.ReactElement {
 	return (
 		<Switch>
 			<Route path={RoutePaths.WIZARD}>

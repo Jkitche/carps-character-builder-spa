@@ -1,19 +1,20 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "..";
 import { AccessElement } from "../../types/element";
-import { Race } from "../../types/race";
+import { RaceNames } from "../../types/race";
+import { RaceData } from "./../../data/raceData";
 
 interface CharacterState {
-	race: Race | null;
+	race: RaceNames;
 	majorAccess: AccessElement[];
-	specialityAccess: AccessElement[];
+	specialtyAccess: AccessElement[];
 	minorAccess: AccessElement[];
 }
 
 const initialState: CharacterState = {
-	race: null,
+	race: RaceNames.ALLERIAN,
 	majorAccess: [],
-	specialityAccess: [],
+	specialtyAccess: [],
 	minorAccess: [],
 };
 
@@ -21,34 +22,28 @@ export const characterSlice = createSlice({
 	name: "character",
 	initialState,
 	reducers: {
-		selectRace: (state: CharacterState, action: PayloadAction<Race>) => {
+		selectRace: (state: CharacterState, action: PayloadAction<RaceNames>) => {
 			return {
 				...state,
 				race: action.payload,
+				majorAccess: RaceData[action.payload].majorAccess,
+				specialtyAccess: RaceData[action.payload].specialtyAccess,
+				minorAccess: RaceData[action.payload].minorAccess,
 			};
 		},
-		setMajorAccess: (
-			state: CharacterState,
-			action: PayloadAction<AccessElement[]>
-		) => {
+		setMajorAccess: (state: CharacterState, action: PayloadAction<AccessElement[]>) => {
 			return {
 				...state,
 				majorAccess: action.payload,
 			};
 		},
-		setSpecialityAccess: (
-			state: CharacterState,
-			action: PayloadAction<AccessElement[]>
-		) => {
+		setSpecialtyAccess: (state: CharacterState, action: PayloadAction<AccessElement[]>) => {
 			return {
 				...state,
-				specialityAccess: action.payload,
+				specialtyAccess: action.payload,
 			};
 		},
-		setMinorAccess: (
-			state: CharacterState,
-			action: PayloadAction<AccessElement[]>
-		) => {
+		setMinorAccess: (state: CharacterState, action: PayloadAction<AccessElement[]>) => {
 			return {
 				...state,
 				minorAccess: action.payload,
@@ -60,8 +55,8 @@ export const characterSlice = createSlice({
 export const characterActions = {
 	selectRace: characterSlice.actions.selectRace,
 	setMajorAccess: characterSlice.actions.setMajorAccess,
-	setSpecialtyAccess: characterSlice.actions.setSpecialityAccess,
+	setSpecialtyAccess: characterSlice.actions.setSpecialtyAccess,
 	setMinorAccess: characterSlice.actions.setMinorAccess,
 };
 
-export const selectCharacterInfo = (state: RootState) => state.character;
+export const selectCharacterInfo = (state: RootState): CharacterState => state.character;

@@ -6,18 +6,15 @@ import { RouterSwitch } from "./components/RouterSwitch/RouterSwitch";
 import { store } from "./store";
 import "rpg-awesome/scss/rpg-awesome.scss";
 
-function App() {
+export default function App(): React.ReactElement {
 	return (
 		<Provider store={store}>
 			<div className={styles.app}>
 				<h1>CARPS Character Builder</h1>
-
-				<BrowserRouter basename={process.env.PUBLIC_URL}>
+				<BrowserRouter>
 					<RouterSwitch />
 				</BrowserRouter>
 			</div>
 		</Provider>
 	);
 }
-
-export default App;

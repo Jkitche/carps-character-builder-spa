@@ -3,9 +3,9 @@ import { RootState } from "..";
 import { Player } from "../../types/player";
 
 interface PlayerState {
-	firstName: String;
-	lastName: String;
-	email: String;
+	firstName: string;
+	lastName: string;
+	email: string;
 }
 
 const initialState: PlayerState = {
@@ -31,4 +31,4 @@ export const playerActions = {
 	initPlayer: playerSlice.actions.initPlayer,
 };
 
-export const selectPlayerInfo = (state: RootState) => state.player;
+export const selectPlayerInfo = (state: RootState): PlayerState => state.player;

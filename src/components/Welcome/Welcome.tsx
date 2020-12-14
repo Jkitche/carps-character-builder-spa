@@ -7,9 +7,7 @@ function Welcome() {
 	const history = useHistory();
 	return (
 		<div className={styles.welcome}>
-			<h2>
-				Welcome to CARPS! This tool will help you build your character.
-			</h2>
+			<h2>Welcome to CARPS! This tool will help you build your character.</h2>
 			<Button
 				icon="caret-right"
 				onClick={() => {

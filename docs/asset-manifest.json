@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/carps-character-builder-spa/static/css/main.a78ac956.chunk.css",
-    "main.js": "/carps-character-builder-spa/static/js/main.86d79242.chunk.js",
-    "main.js.map": "/carps-character-builder-spa/static/js/main.86d79242.chunk.js.map",
+    "main.css": "/carps-character-builder-spa/static/css/main.5d42e0f0.chunk.css",
+    "main.js": "/carps-character-builder-spa/static/js/main.11139ab6.chunk.js",
+    "main.js.map": "/carps-character-builder-spa/static/js/main.11139ab6.chunk.js.map",
     "runtime-main.js": "/carps-character-builder-spa/static/js/runtime-main.f419cb82.js",
     "runtime-main.js.map": "/carps-character-builder-spa/static/js/runtime-main.f419cb82.js.map",
     "static/css/2.f03f90f1.chunk.css": "/carps-character-builder-spa/static/css/2.f03f90f1.chunk.css",
-    "static/js/2.85cfef67.chunk.js": "/carps-character-builder-spa/static/js/2.85cfef67.chunk.js",
-    "static/js/2.85cfef67.chunk.js.map": "/carps-character-builder-spa/static/js/2.85cfef67.chunk.js.map",
+    "static/js/2.4d0e859b.chunk.js": "/carps-character-builder-spa/static/js/2.4d0e859b.chunk.js",
+    "static/js/2.4d0e859b.chunk.js.map": "/carps-character-builder-spa/static/js/2.4d0e859b.chunk.js.map",
     "index.html": "/carps-character-builder-spa/index.html",
     "static/css/2.f03f90f1.chunk.css.map": "/carps-character-builder-spa/static/css/2.f03f90f1.chunk.css.map",
-    "static/css/main.a78ac956.chunk.css.map": "/carps-character-builder-spa/static/css/main.a78ac956.chunk.css.map",
-    "static/js/2.85cfef67.chunk.js.LICENSE.txt": "/carps-character-builder-spa/static/js/2.85cfef67.chunk.js.LICENSE.txt",
+    "static/css/main.5d42e0f0.chunk.css.map": "/carps-character-builder-spa/static/css/main.5d42e0f0.chunk.css.map",
+    "static/js/2.4d0e859b.chunk.js.LICENSE.txt": "/carps-character-builder-spa/static/js/2.4d0e859b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/carps-character-builder-spa/static/media/icons-20.cde033c5.eot",
     "static/media/rpg-awesome.scss": "/carps-character-builder-spa/static/media/rpgawesome-webfont.5ddfbfc5.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.f419cb82.js",
     "static/css/2.f03f90f1.chunk.css",
-    "static/js/2.85cfef67.chunk.js",
-    "static/css/main.a78ac956.chunk.css",
-    "static/js/main.86d79242.chunk.js"
+    "static/js/2.4d0e859b.chunk.js",
+    "static/css/main.5d42e0f0.chunk.css",
+    "static/js/main.11139ab6.chunk.js"
   ]
 }

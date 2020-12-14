@@ -1,8 +1,8 @@
 interface MultilineTextProps {
-	text: String;
+	text: string;
 }
 
-export function MultilineText({ text }: MultilineTextProps) {
+export function MultilineText({ text }: MultilineTextProps): React.ReactElement {
 	return (
 		<div>
 			{text.split("\n").map((i, key) => {
