@@ -16,10 +16,7 @@ export function Welcome(): React.ReactElement {
 			>
 				Click here to start!
 			</Button>
-			<h3>
-				If you have an issue with this application, please contact{" "}
-				<a href="mailto: jkitche@gmail.com">Jae Kitchens</a>
-			</h3>
+			<h3>If you have an issue with this application, please contact Jae Kitchens</h3>
 		</div>
 	);
 }
